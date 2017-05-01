@@ -6,7 +6,13 @@
 ## Install
 
 ```
-$ npm install --save savr
+$ npm install savr
+```
+
+## Run
+
+```
+$ npm start
 ```
 
 ## License
