@@ -1,0 +1,46 @@
+{
+  "name": "savr",
+  "version": "0.0.0",
+  "description": "Modular savegame watcher",
+  "license": "MIT",
+  "repository": "hakla/savegame-watcher",
+  "author": {
+    "name": "hakla",
+    "email": "info@hakla.at",
+    "url": "-"
+  },
+  "bin": "src/cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "start": "src/cli.js",
+    "test": "xo && ava"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "save utility"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "chokidar": "paulmillr/chokidar#master",
+    "copy": "^0.3.0",
+    "dateformat": "^2.0.0",
+    "fs.extra": "^1.3.2",
+    "glob": "^7.1.1",
+    "inquirer-path": "^1.0.0-alpha5",
+    "jfs": "^0.2.6",
+    "meow": "^3.7.0",
+    "ora": "^1.2.0",
+    "savr-utils": "file:///mnt/c/Users/Klaus/.babun/cygwin/home/Klaus/projects/savr-utils",
+    "vorpal": "^1.12.0",
+    "watchr": "^3.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
+  }
+}
